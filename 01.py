@@ -41,11 +41,39 @@ age = 18
 x = f"hello my name is {name} and my last name is {lastname} i am {age} years old"
 print(x)
 
-x = "bahar"
+x = "bahar zand"
 print(x.capitalize())
 
-y = "bahar"
-print(y.upper())
+y = "bahar zand"
+print(y.title())
 
-z = "BAHAR"
-print(z.casefold())
+z = "bahar zand"
+print(z.upper())
+
+m = "BAHAR ZAND"
+print(m.casefold())
+
+n = "BAHAR ZAND"
+print(n.lower())
+
+s = "bahar bahar zand"
+print(s.count("bahar"))
+
+e = "bahar zand"
+print(e.find(z))
+
+r = "my name is {} ."
+print(r.format("bahar"))
+
+t = "        bahar  zand             "
+print(t.strip())
+
+k = "bahar zand"
+print(k.center(20 , "_"))
+
+
+o = "bahar\tzand"
+print(o.expandtabs(20))
+
+h = "bahar zand"
+print(h.replace("bahar" , "zahra"))
