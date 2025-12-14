@@ -72,8 +72,20 @@ k = "bahar zand"
 print(k.center(20 , "_"))
 
 
-o = "bahar\tzand"
+o = "bahar\tzand
 print(o.expandtabs(20))
+
+#boolean
+#false
+#true
+
+x = 10
+y =10
+print(bool(x>=y))
+
+x = 10
+y = 9
+print(bool(x!=y))
 
 h = "bahar zand"
 print(h.replace("bahar" , "zahra"))
