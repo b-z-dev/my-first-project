@@ -1,5 +1,8 @@
-# my-first-project
+# print.py_01
+# Beginner python exercise _ printing text
+
 print("hello world")
+
 x = 5
 y = 3
 print(x+y)
@@ -9,29 +12,40 @@ print(x**y)
 print(x/y)
 print(x//y)
 print(x%y)
-x = "my name is 'bahar'"
+
+x = "hello'world'"
 print(x)
-c = "hello\nworld"
-print(c)
-y = "my name is \"bahar\""
+     
+y = "hello\"nworld\""
 print(y)
-n = "hello\bworld"
-print(n)
-z = "hello\tworld"
+
+x = "hello\nworld"
+print(x)
+
+y = "hello\tworld"
+print(y)
+
+z = "hello\bworld"
 print(z)
-b = """hello world
+
+x = """hello world
 my name is   \"bahar\" """
-print(b)
+print(x)
+
 x = "hello world"
 print(x[1:-2])
+
 name = "bahar"
 lastname = "zand"
 age = 18
-m = f"hello my name is {name} and my last name is {lastname} i am {age} years old"
-print(m)
+x = f"hello my name is {name} and my last name is {lastname} i am {age} years old"
+print(x)
+
 x = "bahar"
 print(x.capitalize())
-r = "bahar"
-print(r.upper())
-o = "BAHAR"
-print(o.casefold())
+
+y = "bahar"
+print(y.upper())
+
+z = "BAHAR"
+print(z.casefold())
